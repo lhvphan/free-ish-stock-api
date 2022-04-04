@@ -1,6 +1,6 @@
 # Free-ish Stock API
 
-## What is it
+## What it do
 Python web service to retrieve stock information with Python using YFiance and CherryPie. 
 
 TODO: 
@@ -36,14 +36,14 @@ Web service with mutilpe endpoints returning JSON object
 Download code and run as is or run as container. 
 
 
-# Run Locally 
+## Run Locally 
 Run Python code locally
 ```
 python3 webservice.py
 ```
 
 
-# Run as Docker Container
+## Run as Docker Container
 Build Docker container, must be in the same directory Dockerfile
 ```
 docker build -t python-ws .
@@ -55,7 +55,7 @@ docker run -p 8080:8080 python-ws
 ```
 
 
-# Usage: Test Calls
+## Usage: Test Calls
 Get various system information
 ```
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/status
@@ -77,9 +77,9 @@ curl -d '{"FaceBook" : "fb", "Amazon" : "amzn", "Apple" : "aapl", "Netflix" : "n
 ## Coffee Contribution
 A bunch of If's
 * If you made it to the bottom of this Readme
-* If this project help you
+* If this project helps you
 * If you are feeling generous
-* You can give me a cup of coffee 
+* Then consider donating to my coffee fund 
 
 Thank you and make your day great! 
 
