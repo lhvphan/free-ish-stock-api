@@ -2,6 +2,7 @@
 
 ## What is it
 Python web service to retrieve stock information with Python using YFiance and CherryPie. 
+
 TODO: 
 * Update to use Flask or Django instead of CherryPy
 * Build frontend to do consume API
@@ -36,19 +37,19 @@ Download code and run as is or run as container.
 
 
 # Run Locally 
-Run python code locally
+Run Python code locally
 ```
 python3 webservice.py
 ```
 
 
 # Run as Docker Container
-Build docker container, must be in the same directory Dockerfile
+Build Docker container, must be in the same directory Dockerfile
 ```
 docker build -t python-ws .
 ```
 
-Run docker container with port mapping
+Run Docker container with port mapping
 ```
 docker run -p 8080:8080 python-ws
 ```
