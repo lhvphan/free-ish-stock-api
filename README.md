@@ -9,7 +9,7 @@ TODO:
 
 
 ## Why
-Just for fun.
+Just for fun and because I googled for way too long and couldnt't find something simple without someone trying to sell something. No, I dont want to pay for your class. No, I dont want to subscribe to your YouTube channel. And NO, I dont want to buy your API license.
 
 
 ## Setup/Pre-Requisites
@@ -56,7 +56,7 @@ docker run -p 8080:8080 python-ws
 
 
 ## Usage: Test Calls
-Get various system information
+Get various system information using curl. If you know how to use PostMan or ARC, go on with your fancy pants and make it happen. i'll add it to the readme
 ```
 curl -H "Content-Type: application/json" -X GET http://localhost:8080/status
 ```
