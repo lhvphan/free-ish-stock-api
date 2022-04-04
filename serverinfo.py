@@ -1,3 +1,12 @@
+'''
+    File name: serverinfo.py
+    Author: lhvphan
+    Email: lhvphan@gmail.com
+    Date created: April 3, 2022
+    Python Version: 3.8
+    Description: call system for various information, returns json object
+'''
+
 import json
 import platform
 import socket

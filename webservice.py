@@ -1,3 +1,15 @@
+'''
+    File name: webservice.py
+    Author: lhvphan
+    Email: lhvphan@gmail.com
+    Date created: April 3, 2022
+    Python Version: 3.8
+    Description: setup webservice endpoints
+        listens on localhost port 8080
+        accepts requests with json body
+        returns json object
+'''
+
 import cherrypy
 import serverinfo
 import financebackend

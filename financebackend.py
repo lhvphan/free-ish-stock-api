@@ -1,3 +1,12 @@
+'''
+    File name: financebackend.py
+    Author: lhvphan
+    Email: lhvphan@gmail.com
+    Date created: April 3, 2022
+    Python Version: 3.8
+    Description: call yahoo finance to get ticker information, returns json object
+'''
+
 import yfinance as yf
 import json
 
