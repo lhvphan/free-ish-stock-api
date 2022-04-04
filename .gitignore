@@ -33,6 +33,11 @@ MANIFEST
 *.manifest
 *.spec
 
+# Notes
+notes.txt
+.DS_Store
+._.DS_Store
+
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
